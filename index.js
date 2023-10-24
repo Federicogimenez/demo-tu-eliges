@@ -82,7 +82,7 @@ function rotateBack(e) {
 // autowrite
 
 function autoWriten (){
-        const text = ["Salir con amigos", "Disfrutar con tu familia", "Viajar a lugares incribles", "Hacer el regalo de mamá"];
+        const text = ["Salir con amigos   ", "Disfrutar con tu familia    ", "Viajar a lugares incribles     ", "Hacer el regalo de mamá     "];
         let h2 = document.querySelector('h2');
 
         let textIndex = 0;
