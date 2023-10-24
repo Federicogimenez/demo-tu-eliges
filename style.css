@@ -116,7 +116,19 @@ section{
 /* button */
 
 /* auto write */
+header{
+    height: 300px;
+
+}
+h1{
+    font-family: 'Poppins';
+    font-size: 40px;
+    color: #ecaf72;
+    margin-bottom: 7px;
+}
 h2{
+    font-size: 30px;
+    font-family: 'Poppins';
     color: #fff;
 }
 /* auto write */
