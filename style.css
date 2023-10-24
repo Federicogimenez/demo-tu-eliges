@@ -1,12 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+}
+*{
     box-sizing: border-box;
 }
 body > section:nth-child(1){background-color: #001f3f;}
-body > section:nth-child(2){background-color: #6d9cb8;}
-body > section:nth-child(3){background-color: #ce7a27;}
-body > section:nth-child(4){background-color: #ffb900;}
+body > section:nth-child(2){background-color: #ffeb3182;}
+body > section:nth-child(3){background-color: #bb27cead;}
+body > section:nth-child(4){background-color: #000000a8;}
 section{
     display: flex;
     justify-content: space-around;
@@ -95,9 +97,9 @@ section{
       display: inline-block;
       transition: all .3s ease; }
     .btn__visible {
-      padding: 2.5rem 7.5rem; }
+      padding: 1.5rem; }
     .btn__invisible {
-      padding: 2.5rem 0;
+      padding: 1.5rem;
       position: absolute;
       left: 0;
       top: 100%; }
@@ -118,3 +120,92 @@ h2{
     color: #fff;
 }
 /* auto write */
+
+
+
+
+/* brands */
+
+.grid-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.highlight-brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    flex: 1 0 400px;
+}
+
+
+.highlight-brands__item{
+    padding: 10px;
+    width: 300px;
+    height: 150px;
+    max-height: 200px;
+    display: flex;
+    background-color: #fff;
+    position: relative;
+}
+
+.highlight-brands__item:not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+.highlight-brands__item img{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    display: block;
+    object-fit: contain;
+    animation-name: fadeIn;
+    transition: all .6s ease;
+}
+
+.brands{
+    flex: 1 0 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.brands__row{
+    flex: 1 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brands__row:not(:last-child){
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.brands__item{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+}
+.brands__item img{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    display: block;
+    object-fit: contain;
+    transition: all .3s;
+}
+
+/* brands */
+
